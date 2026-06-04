@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv=""X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="weather_container">
+            <div class="temp">
+                <p>20</p>
+            </div>
+            <div class="time_location">
+                <p>Delhi</p>
+                <span>12:00 PM</span>
+            </div>
+
+            <div class="condition">
+                <img>
+                <p>Mist</p>
+            </div>
+        </div>
+        <nav>
+        <form>
+            <input type="text" placeholder="Search for a location" class="search_area">
+            <button type="submit">Search Button</button>
+        </form>
+        </nav>
+        
+        <div class="recent_searches_container">
+            <h3>Recent Searches</h3>
+            <ul id="recent_searches_list">
+                <!-- Recent searches will be injected here -->
+            </ul>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
